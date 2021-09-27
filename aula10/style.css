@@ -1,0 +1,18 @@
+
+body{
+    background-image: url('https://www.infoescola.com/wp-content/uploads/2012/03/santa-ceia.jpg');
+    text-align: center;
+    height: 900px;
+    padding: unset;
+
+}
+h1, h2{
+    color: deeppink;
+}
+button {
+    height: 45px;
+    width: 55px;
+    border-radius: ;
+    background-color: rgb(18, 131, 151);
+    color: rgb(5, 1, 7);
+}
