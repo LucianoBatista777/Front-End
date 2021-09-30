@@ -4,11 +4,11 @@
     100% {opacity: 100%;}
 }
 
-img{
-    position: absolute;
+img{ 
+    position: absolute;             
     left: 550px;
-    animation-name: bola;
-    animation-duration: 1s;
+    animation-name: bla;
+    animation-duration:4s;
     animation-iteration-count: infinite;
     height: 200px;
     width: 200px;
