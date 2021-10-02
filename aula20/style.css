@@ -1,0 +1,60 @@
+@keyframes emoji{
+    0% {opacity: 15%;}
+    45% {transform: scale(1); opacity: 55%;}
+    100% {transform: scale(14); opacity: 100%;}
+    
+}
+
+body{
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    grid-template-areas:
+    'header header'
+    'aside main';
+
+    height: 700px;
+}
+
+body header{
+ 
+    text-align: center;
+    grid-area: header;
+    background-color: black;
+}
+
+p{
+    animation: emoji;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    top: 130px;
+}
+
+body aside{
+    grid-area: aside;
+    background-color: blue;
+}
+
+a{
+    text-align: center;
+    position: relative;
+    top: 25px;
+    padding: 12px;
+    text-decoration: none;
+    color: wheat;
+    font-size: 15px;
+}
+
+body main{
+    grid-area: main;
+    background-color: brown;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+img{
+    position: relative;
+    left: 30%;
+    top: 70px;
+}
